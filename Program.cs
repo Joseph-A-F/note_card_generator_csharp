@@ -9,10 +9,7 @@ public class Program
 
     public static void Main(string[] args)
     {
-#if DEBUG
-        Directory.SetCurrentDirectory("/Users/nausetjf/Documents/ObsidianFiles/NausetVault/NausetVault_SyncThing");
 
-#endif
         if (args.Length == 0)
         {
             Console.WriteLine("Usage:");
